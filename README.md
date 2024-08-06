@@ -1,12 +1,8 @@
-- 👋 Hi, I’m @abedalkaderali
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Hi there, I'm [Your Name] 👋
 
-<!---
-abedalkaderali/abedalkaderali is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I'm a passionate backend developer with expertise in Backend and AI. I love solving complex problems and building scalable backend systems.
+## Skills
+- Programming Languages: Python, Java, Go, Ruby, etc.
+- Frameworks: Django, Spring, Ruby on Rails
+- Databases: MySQL, PostgreSQL, MongoDB, Redis
+- Tools: Docker, Kubernetes, Jenkins, Git,
