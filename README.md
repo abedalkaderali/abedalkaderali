@@ -6,79 +6,60 @@
 
 ---
 
-### 🚀 About Me  
-Fullstack Software Engineer with experience building scalable web applications, clean UI/UX, REST APIs, and AI-powered automation systems.  
-I work with modern front-end frameworks (React, SvelteKit), strong backend stacks (Django, Flask, FastAPI), and cloud-native workflows.
-
-I enjoy designing smooth user experiences, optimizing performance, and integrating systems end-to-end.
-
----
-
-### 🧰 Tech Stack
-
-**Frontend:**  
-React.js, SvelteKit, Svelte 5, Next.js (basics), TypeScript, TailwindCSS, Redux, Responsive UI
-
-**Backend:**  
-Django, Django REST Framework, Flask, FastAPI, Node.js, REST API Design, Authentication (JWT/OAuth)
-
-**Databases:**  
-PostgreSQL, MySQL, Supabase, Firebase, MongoDB
-
-**AI & Automation:**  
-OpenAI API, AI Agents, n8n Workflow Automation, Vector Databases
-
-**DevOps & Tools:**  
-Docker, GitHub Actions, CI/CD, Webhooks, DigitalOcean, AWS basics
-
-**Mobile:**  
-Flutter (Dart), Android (Java)
+## 🚀 About Me  
+Fullstack Software Engineer with experience building scalable web applications, intuitive user interfaces, REST APIs, and AI-powered automation systems.  
+I work across modern front-end frameworks (React, SvelteKit), backend technologies (Django, Flask, FastAPI), and cloud-native environments.  
+I focus on writing clean, modular, maintainable code and delivering production-ready systems end-to-end.
 
 ---
 
-### 📌 Featured Projects
+## 🧰 Tech Stack
 
-#### 🛠 ORCA (SvelteKit + Supabase)
-A full-stack inventory and sales management system.  
-- Schema-based validation with **Valibot**  
-- Dynamic forms & reusable components  
-- Real-time DB sync with Supabase  
-- Clean UI with TailwindCSS
+### **Frontend**
+- React.js, SvelteKit, Svelte 5  
+- TypeScript, JavaScript (Advanced)  
+- Redux, TailwindCSS, Bootstrap  
+- Responsive UI/UX, Component Architecture  
 
-🔗 *Coming soon — repo cleanup in progress*
+### **Backend**
+- Django, Django REST Framework  
+- Flask, FastAPI, Node.js  
+- Authentication (JWT, OAuth2), REST API Design  
 
----
+### **Databases**
+- PostgreSQL, MySQL, MongoDB  
+- Supabase, Firebase Firestore  
 
-#### 🚗 CarCare – Car Maintenance App (Flutter + Django)
-Full mobile app for car service requests, maintenance reminders, and user management.  
-Backend built with Django & PostgreSQL, secure authentication, clean architecture.
+### **AI & Automation**
+- OpenAI API  
+- AI Agents, Prompt Engineering  
+- n8n Workflow Automation  
+- Vector Databases  
 
-🔗 *Private academic project — can provide code on request*
+### **DevOps & Tools**
+- Docker, GitHub Actions, CI/CD  
+- AWS (basics), DigitalOcean  
+- Webhooks, API Integrations  
 
----
-
-#### 🛒 E-Commerce Platform (Django REST)
-Custom online store with authentication, cart, orders, and API integrations.  
-Optimized with Celery + PostgreSQL for performance.
-
-🔗 Repo: *(add your link here)*
-
----
-
-#### 🤖 AI Voice Agent Automation (n8n + OpenAI)
-Multi-step automation pipeline:  
-- Webhooks  
-- External API fetching  
-- Email generation  
-- Workflow orchestration  
-
-Built fully with n8n + Python API logic.
-
-🔗 Repo: *(add your link here)*
+### **Mobile Development**
+- Flutter (Dart)  
+- Android (Java)
 
 ---
 
-### 📊 GitHub Stats
+## 📜 Certifications
+
+- **Fullstack Web Development Bootcamp**  
+- **AI Engineer Path**  
+  - AI agents, vector databases, prompt engineering  
+- **Svelte 5 & SvelteKit — Build & Deploy Real-World Apps**  
+- **Advanced JavaScript** (closures, prototypes, async programming)  
+- **Flutter, Dart & Firebase — Multi-Store App Development**  
+- **Foundations of Computer Science** (SE Factory / Abdulla Al Ghurair Foundation)
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=abedalkaderali&show_icons=true&theme=tokyonight" />
@@ -87,12 +68,9 @@ Built fully with n8n + Python API logic.
 
 ---
 
-### 📫 Contact
-Email: **abedalkader.M.A@outlook.com**  
-LinkedIn: **https://linkedin.com/in/abed-alkader-ali-898584211**  
-Location: **Beirut, Lebanon**
+## 📫 Contact
+**Email:** abedalkader.M.A@outlook.com  
+**LinkedIn:** https://linkedin.com/in/abed-alkader-ali-898584211  
+**Location:** Beirut, Lebanon  
 
 ---
-
-### ⭐ Fun Fact  
-I love turning real-world problems into clean, scalable software systems.
