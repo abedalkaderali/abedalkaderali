@@ -59,14 +59,7 @@ I focus on writing clean, modular, maintainable code and delivering production-r
 
 ---
 
-## 📊 GitHub Stats
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=abedalkaderali&show_icons=true&theme=tokyonight" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abedalkaderali&layout=compact&theme=tokyonight" />
-</p>
-
----
 
 ## 📫 Contact
 **Email:** abedalkader.M.A@outlook.com  
