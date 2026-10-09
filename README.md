@@ -1,93 +1,85 @@
 # Hi, I'm Abedalkader Ali 👋
 
-**Full-Stack & AI Engineer** · Production LLM Systems | Python & C# | React / SvelteKit
+**AI Engineer & Full-Stack Software Engineer** · Production LLM Systems · .NET / Python / Laravel · React / SvelteKit
 
----
+I build production AI systems — the kind that handle real customers, real money, and real operational consequences, not demos.
 
-## 🚀 About Me
-
-I ship LLM-powered products end to end — multi-flow conversational agents, function/tool calling over real backend systems, multimodal vision, self-hosted LLMs, and AI automation pipelines.
-
-Beyond the AI layer, I build the systems around it: backends in Django, Flask, FastAPI, Laravel, and ASP.NET Core, with modern frontends in SvelteKit, React, and TypeScript. My focus is production-ready, observable systems — the kind that stay correct when a non-deterministic model is sitting in the middle of the request path.
-
-📍 Beirut, Lebanon · 🗣️ Arabic (Native), English (C1)
+📍 Lebanon · 🗣️ Arabic (Native), English (C1) · 🌏 Working remotely with an Australian team
 
 ---
 
 ## 💼 Experience
 
-**AI Engineer — LLM, Automation & Data Systems** · YMY Tutoring · *Feb 2026 – Present*
-- Architected and shipped a production WhatsApp AI agent (Laravel · Chatwoot · Anthropic Claude) autonomously handling order-taking and debt collection in Kuwaiti Arabic for paying customers
-- Designed a multi-flow LLM router with function calling across **25+ backend tools** — dynamic pricing, payment links, debt summaries, order creation, escalation
-- Moved pricing, discounts, and promo rules into a **deterministic business-logic layer outside the prompt**, eliminating LLM pricing errors in production
-- Hardened reliability with forced-reply safety nets, a hallucination guard, and an **80+ test regression suite**, plus structured logging and critical-failure alerting
-- Owned deployment and live operations: Redis queue workers, multi-environment config, production debugging
+**AI & Full-Stack Engineer** · iTrack Technologies (Melbourne, Australia — Remote) · *Jun 2026 – Present*
+- AI **email-to-booking agent** on **AWS Bedrock + Anthropic Claude**: ingests freight emails with PDF/Word transport orders, extracts structured shipment data via tool calling, creates draft bookings — **200+ automated**, near-zero false positives
+- Triage layer separating transport orders from arrival notices; loop-safe IMAP ingestion with a persistent seen-ledger for **exactly-once processing**; per-email token budgeting
+- Human-in-the-loop React review UI — nothing commits unchecked
+- **Provider-agnostic AI layer**: cloud and self-hosted OpenAI-compatible models swap via config, no rewrite
+- Passwordless **carrier dispatch** with SHA-256-hashed scoped tokens, GPS capture, signature/photo Proof of Delivery → S3
+- **Linehaul dual-rate pricing** with live margin across pricing, invoicing and job views
+- Redesigned the **React Native (Expo) driver app** — floating tab navigation, signature-capture POD, in-app truck-route map (HERE tiles on MapLibre)
+- Additive **zero-downtime schema migrations** against a live production database
+
+**AI Engineer — LLM, Automation & Data Systems** · YMY Tutoring · *Feb 2026 – Sep 2026*
+- Production **WhatsApp AI agent** (Laravel · Chatwoot · Anthropic Claude) handling order-taking and debt collection in Kuwaiti Arabic for paying customers
+- Multi-flow LLM router with function calling across **25+ backend tools** — pricing, payment links, debt summaries, order creation, escalation
+- Moved pricing, discounts and promo rules into a **deterministic business-logic layer outside the prompt**, eliminating LLM pricing errors in production
+- Forced-reply safeguards, hallucination guard, **80+ test regression suite**, structured logging, critical-failure alerting
+- Redis queue workers, multi-environment deployment, live production debugging
 
 **Full-Stack Software Engineer** · noblesdigital · *Jan 2025 – Jan 2026*
-- Built SvelteKit + Supabase applications with secure auth, real-time data, and role-based access — **5,000+ monthly users** in production
-- Schema-driven validation with Superforms + Valibot across complex multi-step forms
-- Accessible, animated UI with Tailwind CSS — **95+ Lighthouse scores** across device sizes
+- SvelteKit + Supabase apps with secure auth, real-time data, RBAC — **5,000+ monthly users**
+- Schema-driven validation with Superforms + Valibot; **95+ Lighthouse scores**
 
 **Backend Developer** · BotlerAI · *Jan 2024 – Dec 2024*
-- Designed and optimized REST APIs in Django and Flask — **30% faster response times**
-- Microservices with Docker and Kubernetes; CI/CD pipelines with automated testing
-- Third-party API integrations and auth systems (JWT, OAuth); AWS and DigitalOcean deployment
+- Django/Flask REST APIs — **30% faster** response times
+- Microservices with Docker and Kubernetes; CI/CD with automated testing; JWT/OAuth; AWS and DigitalOcean
 
 ---
 
 ## 🛠️ Featured Projects
 
-**AI Email-to-Booking Automation** — *.NET 9 · C# · React · PostgreSQL · Ollama*
-Reads airline arrival-notice emails and auto-creates draft bookings, removing manual re-keying of shipment data. Self-hosted LLM extraction service (Qwen2.5-7B with function calling) running on local GPU — **zero external API cost, full data privacy**. Provider-agnostic AI layer swaps local/cloud models via config, backed by a .NET IMAP background worker with idempotent de-duplication and a human-in-the-loop React review UI.
+**AI Executive Secretary** — WhatsApp-native automation platform
+**29 orchestrated n8n workflows (367 nodes)** · GPT-4o · PostgreSQL · Docker · WhatsApp Cloud API · Google Workspace
+Code-enforced human-in-the-loop approval gate — sensitive actions require an exact approval ID matched against the raw message, making it **structurally impossible for the LLM to authorise its own action** (validated with adversarial tests). SHA-256 payload hashing invalidates an approval if content changes; an idempotency ledger prevents duplicate sends on retry. HMAC-SHA256 webhook verification, phone allow-listing, OAuth 2.0, full audit trail. Isolated per-client PostgreSQL + n8n stacks.
 
-**ORCA** — *SvelteKit · Svelte 5 · Supabase*
-Full-stack inventory and sales system managing categories, items, suppliers, and orders, with schema-driven validation and reusable form components.
+**ORCA** — SvelteKit · Svelte 5 · Supabase
+Inventory and sales system covering categories, items, suppliers, stock and orders, with schema-driven validation and reusable form components.
 
-**CarCare** — *Flutter · Django · PostgreSQL*
-Car maintenance platform with automated service reminders driven by mileage and installation dates, built on a modular architecture with secure auth.
-
-**AI Voice Agent Automation** — *n8n · OpenAI*
-Automated workflow processing inputs, fetching data via APIs, and generating personalized emails through webhooks and Gmail integration.
+**CarCare** — Flutter · Django · PostgreSQL
+Vehicle maintenance platform with automated reminders driven by mileage and installation dates.
 
 ---
 
 ## 🧰 Tech Stack
 
-**AI & LLMs**
-Anthropic Claude · OpenAI API · Self-Hosted LLMs (Ollama / Qwen2.5) · Function & Tool Calling · Multimodal Vision · LLM Agents · RAG & Vector Databases · Prompt Engineering · n8n
+**AI & LLMs** AWS Bedrock · Anthropic Claude · OpenAI · Self-Hosted LLMs (Ollama / Qwen2.5) · Function & Tool Calling · Structured Outputs · Multimodal Vision · LLM Agents · RAG & Vector Databases · Prompt Engineering · LLM Guardrails · Human-in-the-Loop Systems · n8n
 
-**Backend**
-Django · Django REST Framework · Flask · FastAPI · Laravel (PHP) · ASP.NET Core (C#) · Node.js · REST API Design · JWT / OAuth2 · Microservices
+**Backend** C# · ASP.NET Core / .NET 9 · Python · Django · DRF · Flask · FastAPI · Laravel (PHP) · Node.js · REST API Design · JWT / OAuth2 · Microservices
 
-**Frontend**
-React.js · SvelteKit · Svelte 5 · TypeScript · JavaScript (Advanced) · Redux · TailwindCSS · Component Architecture
+**Frontend** React · TypeScript · React Native (Expo) · SvelteKit · Svelte 5 · Tailwind CSS
 
-**Databases & Storage**
-PostgreSQL · MySQL · MongoDB · Redis · Supabase · Firebase Firestore · SQLAlchemy · Alembic
+**Data & Integration** PostgreSQL · MySQL · MongoDB · Redis · Supabase · AWS S3 · IMAP · PdfPig · OpenXML · WhatsApp Cloud API · Google Workspace APIs · HERE Maps · MapLibre
 
-**DevOps & Tools**
-Docker · Kubernetes · GitHub Actions · CI/CD · Queue Workers · Webhooks · IMAP / Email Integration · AWS · DigitalOcean
-
-**Mobile**
-Flutter (Dart) · Android (Java)
+**Cloud, Security & DevOps** AWS · Docker · Kubernetes · CI/CD · GitHub Actions · Nginx/TLS · HMAC-SHA256 · SHA-256 Token Hashing · Scoped Tokens · Idempotency · RBAC · Audit Logging
 
 ---
 
 ## 🎓 Education & Certifications
 
-**B.E. in Computer Engineering** — Lebanese International University, Beirut · *2018 – 2024*
+**B.E. in Computer Engineering** — Lebanese International University · 2018 – 2024
 
-- **AI Engineer Path — Applied AI & Machine Learning** (14-week intensive) — ML foundations, deep learning & computer vision (TensorFlow/Keras, CNNs, transfer learning), sequence models, and production RAG with agentic workflows
-- **n8n — AI Agents, AI Automations & AI Voice Agents** (Udemy, 59 hrs)
-- **Svelte 5 & SvelteKit — Build & Deploy Real-World Apps**
-- **Advanced JavaScript** — closures, prototypes, async programming, performance
-- **Flutter, Dart & Firebase — Multi-Store App Development**
+- **AI-Assisted Coding, Professional Certificate** — American University of Beirut (AUB), MSFEA · 2026
+- **The AI Engineer Path** — Scrimba, 14-week intensive · Nov 2025
+- **AI Automation: LLM Apps & AI Agents with n8n & APIs** — Udemy · Jul 2026
+- **n8n: AI Agents, Automations & Voice Agents** — Udemy, 59 hrs · Dec 2025
+- Master Svelte 5 & SvelteKit · Advanced JavaScript (Scrimba) · Fullstack Bootcamp · Flutter/Firebase
 - **Foundations of Computer Science** — SE Factory / Abdulla Al Ghurair Foundation
+
+I also teach an introductory Java programming course at university level.
 
 ---
 
 ## 📫 Contact
 
-📧 [abedalkader.M.A@outlook.com](mailto:abedalkader.M.A@outlook.com)
-💼 [LinkedIn](https://linkedin.com/in/abed-alkader-ali-898584211)
-📍 Beirut, Lebanon
+📧 abedalkader.M.A@outlook.com · 💼 [LinkedIn](https://www.linkedin.com/in/abedalkaderali) · 🌐 [atsdigitals.com](https://www.atsdigitals.com)
